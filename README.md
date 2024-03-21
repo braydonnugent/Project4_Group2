@@ -1,4 +1,23 @@
-### Overview and Purpose (Braydon)
+### Overview and Purpose 
+The aim of this investigation is to implement machine learning on a dataset orientated on heart disease & see how possible it is to predict the presence or absence of heart disease.
+
+As well as Age, Sex & Patient ID's, the fields within this dataset include:
+  Chest pain type: selection of 4 forms of chest pain.
+  BP (Blood Pressure)
+  Cholesterol.
+  FBS over 120- fasting blood sugar > 120 mg/dl
+  EKG results: electrocardiographic results 0: normal -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+  -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+  Max HR (Heart Rate)
+  Exercise Angina: 1 = yes; 0 = no (Chest pain when you exercise)
+  ST Depression: ST depression induced by exercise relative to rest
+  Slope of ST: difference between ECG highest elevation & lowest depression
+  Number of vessels fluro:
+  Thallium: 0 = normal; 1 = fixed defect; 2 = reversable defect
+  
+  Heart Disease: used to train the data
+
+Utilising the fields that would be considered valuable information (based on visualisations created on Tableau) for the process of machine learning, they will be used to predict the outcome of heart disease as accurately as possible.
 
 ### Data Analysis
 Link to Tableau: https://public.tableau.com/app/profile/braydon.nugent/viz/Project4_Group2_Explatory_Visualisations/ExplatoryAnalysis?publish=yes
@@ -13,7 +32,14 @@ First, we prepped our dataset, making sure all the data in our columns were inte
 To make sure our model was performing at its best, we ran it through a bunch of tests. We kept an eye on metrics like accuracy and loss, using "binary crossentropy" to measure loss. We used the "adam" optimizer to help train the model, and we played around with the number of epochs to fine-tune its performance.
 
 This whole process was all about finding the sweet spot for our neural network, making sure it was as accurate as possible by tinkering with different settings and configurations.
-### Discussion (Braydon)
+
+### Discussion 
+In Summary, despite the limited entries within the dataset, it’s possible to implement machine learning to predict the status of heart disease with a high performing accuracy such as 88%
+Among the multiple attempts made to create the machine learning model with the best performing accuracy, we followed what was suggested by the hypothesis, which was to include the four most significant fields based on the Tableau visualisations. (3 of those 4 were further supported as the most significant fields through the chart produced on the random forest tree).
+Despite this method producing an admirable accuracy of 83%, the highest performing model of 88% came from filtering out the 3 fields providing the least significance to the machine learning (the noise), based on the chart from the random forest.
+
+Ultimately, contrast to what was stated in the hypothesis, it is necessary to provide the machine learning model with as much information as necessary, even if there appears to be no significant correlation in the data.
+
 
 ### what is the challenge and how your group overcome it? What is the limitation of the data/model? (Ben)
 The challenge was having deep understanding on the dataset information. 
