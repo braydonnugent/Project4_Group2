@@ -12,7 +12,7 @@ As well as Age, Sex & Patient ID's, the fields within this dataset include:
   Exercise Angina: 1 = yes; 0 = no (Chest pain when you exercise)
   ST Depression: ST depression induced by exercise relative to rest
   Slope of ST: difference between ECG highest elevation & lowest depression
-  Number of vessels fluro:
+  Number of vessels fluro: the severity of a condition related to vessels observed during a fluoroscopy procedure
   Thallium: 0 = normal; 1 = fixed defect; 2 = reversable defect
   
   Heart Disease: used to train the data
