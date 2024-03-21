@@ -21,6 +21,8 @@ Utilising the fields that would be considered valuable information (based on vis
 
 ### Data Analysis
 Link to Tableau: https://public.tableau.com/app/profile/braydon.nugent/viz/Project4_Group2_Explatory_Visualisations/ExplatoryAnalysis?publish=yes
+![image](https://github.com/braydonnugent/Project4_Group2/assets/142481554/292e90b7-881b-41ad-a626-03b810eb1fda)
+
 
 ### Building ML Models 
 Using previous examples of machine learning models learned throughout the course, four different ML models were created: decision tree, KNN model, Random forest and Neural Network Model.
@@ -34,6 +36,8 @@ First, we prepped our dataset, making sure all the data in our columns were inte
 To make sure our model was performing at its best, we ran it through a bunch of tests. We kept an eye on metrics like accuracy and loss, using "binary crossentropy" to measure loss. We used the "adam" optimizer to help train the model, and we played around with the number of epochs to fine-tune its performance.
 
 This whole process was all about finding the sweet spot for our neural network, making sure it was as accurate as possible by tinkering with different settings and configurations.
+![image](https://github.com/braydonnugent/Project4_Group2/assets/142481554/07e0e2dc-a22e-46dd-bc39-aed377910040)
+
 
 ### Discussion 
 In Summary, despite the limited entries within the dataset, it’s possible to implement machine learning to predict the status of heart disease with a high performing accuracy such as 88%
