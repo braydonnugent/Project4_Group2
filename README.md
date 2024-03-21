@@ -42,4 +42,7 @@ Ultimately, contrast to what was stated in the hypothesis, it is necessary to pr
 
 
 ### what is the challenge and how your group overcome it? What is the limitation of the data/model? (Ben)
-The challenge was having deep understanding on the dataset information. 
+The challenge was having deep understanding on the dataset information. Initial research was conducted to properly understand the variable columns present within the dataset, and how they are related to the prescence of heart disease within the patient. Tableau visualizations as well as creating a random forest features graph also helped in overcoming the differences in understanding.
+
+The main limitation was the sample size of the dataset. Records of around 270 patients were present within the dataset. If the numer of records were increased, the corresponding machine learning model could have the potential to be better optimised and have a higher overall accuracy.
+Other limitations such as time constrained the number of attempts the model could be optimized. Around ten different optimising attempts were achieved with the neural network model over the past two weeks. More varied attemtps could have been achieved if this time limitation was extended.
