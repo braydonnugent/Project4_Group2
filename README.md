@@ -22,9 +22,11 @@ Utilising the fields that would be considered valuable information (based on vis
 ### Data Analysis
 Link to Tableau: https://public.tableau.com/app/profile/braydon.nugent/viz/Project4_Group2_Explatory_Visualisations/ExplatoryAnalysis?publish=yes
 
-### Building ML Models (Ekta)
+### Building ML Models 
+Using previous examples of machine learning models learned throughout the course, four different ML models were created: decision tree, KNN model, Random forest and Neural Network Model.
+For every model preprocessing was conducted on the data to convert the outcome varibale (presence of heart disease) into a binary variable. The patient ID column was also dropped before scaling the dataset, splitting into training and testing sets and then creating the models. 
 
-### Optimising Neural  Network Model (Alex)
+### Optimising Neural  Network Model 
 We set out to make our neural network super accurate by combining insights from Random Forest analysis and Tableau visualizations to figure out the best data columns to test.
 
 First, we prepped our dataset, making sure all the data in our columns were integers and cutting out any unnecessary ones. Then, we tweaked the setup of our neural network, adjusting the hidden node layers to use "relu" and the outer layer to use "sigmoid".
@@ -41,7 +43,7 @@ Despite this method producing an admirable accuracy of 83%, the highest performi
 Ultimately, contrast to what was stated in the hypothesis, it is necessary to provide the machine learning model with as much information as necessary, even if there appears to be no significant correlation in the data.
 
 
-### what is the challenge and how your group overcome it? What is the limitation of the data/model? (Ben)
+### what is the challenge and how your group overcome it? What is the limitation of the data/model? 
 The challenge was having deep understanding on the dataset information. Initial research was conducted to properly understand the variable columns present within the dataset, and how they are related to the prescence of heart disease within the patient. Tableau visualizations as well as creating a random forest features graph also helped in overcoming the differences in understanding.
 
 The main limitation was the sample size of the dataset. Records of around 270 patients were present within the dataset. If the numer of records were increased, the corresponding machine learning model could have the potential to be better optimised and have a higher overall accuracy.
